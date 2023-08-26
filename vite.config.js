@@ -11,10 +11,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    // server: {
-    //     host: '192.168.30.25',
-    //     hmr: {
-    //         host: '192.168.30.25',
-    //      },
-    // },
+    server: {
+        host: '192.168.30.25',
+        hmr: {
+            host: '192.168.30.25',
+         },
+    },
 });
